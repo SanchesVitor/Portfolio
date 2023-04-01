@@ -91,3 +91,9 @@ header .navegacao-primaria li a {
   max-width: 100%;
   border-radius: 50%;
 }
+
+@keyframes inicializar {
+  from {
+    opacity: 0;
+  }
+}
