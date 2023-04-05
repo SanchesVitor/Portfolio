@@ -6,7 +6,16 @@
   }
 
   .section-div {
-    back
+    background: url(../assets/fundo1.png) no-repeat center/cover;
+  }
+
+  header .navegacao-primaria {
+    display: none;
+  }
+
+  header i {
+    color: #f7f7f7;
+    font-size: 2rem;
   }
 
   .sobre img {
