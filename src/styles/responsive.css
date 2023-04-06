@@ -9,6 +9,11 @@
     background: url(../assets/fundo1.png) no-repeat center/cover;
   }
 
+  header {
+    justify-content: space-between;
+    padding: 30px 70px;
+  }
+
   header .navegacao-primaria {
     display: none;
   }
@@ -16,6 +21,22 @@
   header i {
     color: #f7f7f7;
     font-size: 2rem;
+  }
+
+  header .navegacao-primaria.ativado {
+    background: linear-gradient(rgba(43, 42, 42, 0.176), rgba(46, 46, 46, 0.724));
+    position: absolute;
+    display: grid;
+    top: 80px;
+    color: #FFFFFF;
+    z-index: 1;
+    padding: 30px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    border-radius: 0 0 4px 4px;
+    right: 20px;
+
+    animation: sobeSecao .8s ease-in-out forwards;
   }
 
   .sobre img {
