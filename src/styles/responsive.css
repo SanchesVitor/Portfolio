@@ -1,5 +1,9 @@
 @import url(./style.css);
 
+header .menu-hamburgue {
+  display: none;
+}
+
 @media (max-width: 992px) {
   .section-div img {
     display: none;
@@ -18,9 +22,10 @@
     display: none;
   }
 
-  header i {
+  header .menu-hamburgue {
     color: #f7f7f7;
     font-size: 2rem;
+    display: block;
   }
 
   header .navegacao-primaria.ativado {
