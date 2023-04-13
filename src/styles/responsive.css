@@ -4,6 +4,55 @@ header .menu-hamburgue {
   display: none;
 }
 
+@media (max-width: 1089px) {
+
+  .resume-generica .experience-content,
+  .education-content {
+    justify-self: center;
+    grid-column: 1/-1;
+  }
+
+  .resume-generica .education {
+    grid-column: 1/-1;
+    grid-row: 3;
+    justify-self: center;
+    margin: 30px 0;
+  }
+
+  .resume-generica .experience {
+    grid-column: 1/-1;
+    grid-row: 1;
+    justify-self: center;
+  }
+  
+  .cursos {
+    grid-template-columns: 1fr;
+  }
+
+  .cursos .funfacts h2 {
+    justify-self: center;
+  }
+
+  .cursos .funfacts {
+    margin-bottom: 30px;
+    text-align: center;
+    grid-template-columns: 1fr;
+    justify-self: center;
+    grid-column: 1/-1;
+  }
+
+  .cursos .my-skill h2 {
+    justify-self: center;
+  }
+
+  .cursos .my-skill {
+    text-align: center;
+    grid-template-columns: 1fr;
+    justify-self: center;
+    grid-column: 1/-1;
+  }
+}
+
 @media (max-width: 992px) {
   .section-div img {
     display: none;
