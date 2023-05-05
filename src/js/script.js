@@ -78,3 +78,20 @@ function sobreMim() {
 }
 
 sobreMim();
+
+const listaALL = document.querySelectorAll('.projects-armazenamento ul li');
+const buttonGeral = document.querySelectorAll('.projects-navegacao ul li');
+const buttonAll = document.querySelectorAll('.projects-models .all');
+
+function removeClick(index) {
+  buttonGeral.forEach((item) => {
+    item.classList.remove('ativo');
+  });
+  buttonGeral[index].classList.add('ativo');
+}
+
+buttonGeral.forEach((item, index) => {
+  item.addEventListener('click', () => {
+    removeClick(index);
+  });
+});
